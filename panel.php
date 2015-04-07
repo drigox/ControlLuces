@@ -7,8 +7,12 @@ $query = "SELECT Cadena FROM transacciones ORDER BY Fecha desc, Hora desc";
 $result = mysql_query($query) or die('Consulta fallida: ' . mysql_error());
 
 while ($row = mysql_fetch_row($result)){
-	echo $row[0];
+	$cadena = $row[0];
+	break;
 	}
-	
 
+
+for($i=4; $i<12; $i++){
+	echo $cadena[$i];
+}
 ?>
