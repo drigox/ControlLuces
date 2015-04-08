@@ -4,24 +4,101 @@
 		
 		<script type="text/javascript">
 			$(function() {
-				$('button').click(function(){
-					if ($("#bg").attr('src') == 'off.jpg'){
-						$("#bg").attr('src',"on.jpg");		
+				$('#bt1').click(function(){
+					if ($("#bg1").attr('src') == 'off.jpg'){
+						$("#bg1").attr('src',"on.jpg");		
 					}
 					else{
-						$("#bg").attr('src',"off.jpg");		
-					}			
+						$("#bg1").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt2').click(function(){
+					if($("#bg2").attr('src') == 'off.jpg'){	
+					$("#bg2").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg2").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt3').click(function(){
+					if($("#bg3").attr('src') == 'off.jpg'){	
+					$("#bg3").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg3").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt4').click(function(){
+					if($("#bg4").attr('src') == 'off.jpg'){	
+					$("#bg4").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg4").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt5').click(function(){
+					if($("#bg5").attr('src') == 'off.jpg'){	
+					$("#bg5").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg5").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt6').click(function(){
+					if($("#bg6").attr('src') == 'off.jpg'){	
+					$("#bg6").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg6").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt7').click(function(){
+					if($("#bg7").attr('src') == 'off.jpg'){	
+					$("#bg7").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg7").attr('src',"off.jpg");		
+					}
+					});
+				$('#bt8').click(function(){
+					if($("#bg8").attr('src') == 'off.jpg'){	
+					$("#bg8").attr('src',"on.jpg");		
+					}
+					else{
+						$("#bg8").attr('src',"off.jpg");		
+					}
 					});
 				});
 		</script>
 	</head>
 	
 	<body>
-		<button type="submit"  >
-			<img src="off.jpg" id="bg">
-		</button>
-		<button type="submit"  >
-			<img src="off.jpg" id="bg1">
-		</button>
+		<div id="botones">
+			<button type="submit"  id="bt1">
+				<img src="off.jpg" id="bg1">
+			</button>
+			<button type="submit"  id="bt2">
+				<img src="off.jpg" id="bg2">
+			</button>
+			<button type="submit"  id="bt3">
+				<img src="off.jpg" id="bg3">
+			</button>
+			<button type="submit"  id="bt4">
+				<img src="off.jpg" id="bg4">
+			</button>
+			<button type="submit"  id="bt5">
+				<img src="off.jpg" id="bg5">
+			</button>
+			<button type="submit"  id="bt6">
+				<img src="off.jpg" id="bg6">
+			</button>
+			<button type="submit"  id="bt7">
+				<img src="off.jpg" id="bg7">
+			</button>
+			<button type="submit"  id="bt8">
+				<img src="off.jpg" id="bg8">
+			</button>
+
+		</div>
 	</body>
 </html>
